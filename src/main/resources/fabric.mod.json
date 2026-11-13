@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "leaf_decay",
+	"version": "${version}",
+	"name": "Leaf Decay",
+	"description": "Leaves decay faster after chopping tree.",
+	"authors": [
+		"dxxi3d"
+	],
+	"contact": {
+		"issues": "https://github.com/dxxi3d/leaf_decay/issues",
+		"sources": "https://github.com/dxxi3d/leaf_decay"
+	},
+	"license": "MIT",
+	"icon": "assets/leaf_decay/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dxxi3d.leaf_decay.LeafDecay"
+		]
+	},
+	"mixins": [
+		"leaf_decay.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=26.1",
+		"java": ">=25"
+	}
+}
