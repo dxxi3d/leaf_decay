@@ -6,7 +6,7 @@ Leaves decay faster after chopping tree.
 * Player-placed leaves will not decay.
 * Supports modded leaves types.
 
-![Showcase](SHOWCASE.gif)
+![Showcase](https://github.com/dxxi3d/leaf_decay/blob/26.X/SHOWCASE.gif?raw=true)
 
 ## License
 
